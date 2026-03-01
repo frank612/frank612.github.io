@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人作品集</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    /* 导航 */
+    .site-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 1rem;
+    }
+
+    .site-nav a {
+      text-decoration: none;
+      color: #555;
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+
+    .site-nav a:hover {
+      color: #000;
+    }
+
+    /* 内容区块 */
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 0.5rem;
+    }
+
+    .item-list {
+      list-style: none;
+    }
+
+    .item-list li {
+      margin-bottom: 1.2rem;
+    }
+
+    .item-list a {
+      text-decoration: none;
+      color: #0366d6;
+      font-size: 1.2rem;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .item-list a:hover {
+      border-bottom-color: #0366d6;
+    }
+
+    /* 关于区域 */
+    #about p {
+      color: #666;
+      max-width: 600px;
+    }
+
+    /* 平滑滚动 */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <ul>
+      <li><a href="#works">作品</a></li>
+      <li><a href="#posts">文章</a></li>
+      <li><a href="#about">关于</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="works">
+      <h2>作品</h2>
+      <ul class="item-list">
+        <li><a href="https://example.com/work1" target="_blank" rel="noopener">作品一 · 简洁个人网站生成器</a></li>
+        <li><a href="https://example.com/work2" target="_blank" rel="noopener">作品二 · 时间管理命令行工具</a></li>
+        <li><a href="https://example.com/work3" target="_blank" rel="noopener">作品三 · 极简博客主题</a></li>
+        <li><a href="https://example.com/work4" target="_blank" rel="noopener">作品四 · 静态站点部署脚本</a></li>
+      </ul>
+    </section>
+
+    <section id="posts">
+      <h2>文章</h2>
+      <ul class="item-list">
+        <li><a href="https://example.com/post1" target="_blank" rel="noopener">我为什么选择静态网站</a></li>
+        <li><a href="https://example.com/post2" target="_blank" rel="noopener">用 GitHub Pages 搭建个人品牌</a></li>
+        <li><a href="https://example.com/post3" target="_blank" rel="noopener">写作十年：我的工具流</a></li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>关于</h2>
+      <p>这里是你的简介。可以写一小段话介绍自己，或者放上社交媒体链接。保持简洁即可。</p>
+      <p>联系方式：<a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
